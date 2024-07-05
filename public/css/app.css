@@ -12099,7 +12099,7 @@ nav a:hover {
   color: white;
 }
 .section1 .carousel-item .card-img-overlay h4, .section1 .carousel-item .card-img-overlay .h4 {
-  color: #ffa012;
+  color: white;
   font-family: satisty;
 }
 
@@ -12458,7 +12458,7 @@ nav a:hover {
   width: 100%;
   height: 100%;
   background: rgb(0, 0, 0);
-  opacity: 0.7;
+  opacity: 0.6;
 }
 .restaurant-chefs .chefs h3, .restaurant-chefs .chefs .h3 {
   display: flex;
@@ -12492,6 +12492,9 @@ nav a:hover {
   align-items: center;
   justify-content: center;
   font-family: satisty;
+}
+.restaurant-chefs span {
+  text-align: center;
 }
 .restaurant-chefs .img {
   width: 30vw;
