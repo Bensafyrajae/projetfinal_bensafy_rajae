@@ -1,0 +1,452 @@
+.button
+    border: 1px solid $orange
+    border-radius: 20px
+    text-decoration: none
+    color: white
+    padding: 5px 10px
+    &:hover
+      background: $orange  
+.section1
+    .carousel-item
+        .card-img-overlay 
+
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            gap: 3vh 
+            p
+                width: 30vw
+                color: white
+            h4
+
+                color:$orange
+                font-family: satisty         
+.section2 
+    display: flex
+    justify-content: space-between
+    .leftside
+        padding:  50px 0
+
+    
+    .rightside
+        display: flex
+        flex-direction: column
+        padding: 50px 30px
+        
+        
+        
+        h1
+            font-family: satisty
+        p
+            opacity: 0.5
+        
+        .rightside-icons
+            display: flex
+            justify-content: center
+            flex-direction: column
+            padding: 10px
+            .rightside-icon
+                display: flex
+                justify-content: center
+                flex-direction: row
+                padding: 10px
+                gap: 1vw
+                i
+                    color: $orange
+.section3
+    padding: 30px
+
+    .center-side
+          display: flex
+          flex-direction: column
+          justify-content: center
+          align-items: center
+          padding: 50px
+          span
+            width: 40vw
+          h3
+            display: flex
+            align-items: center
+            justify-content: center
+            font-family: satisty
+            .text-orange
+                color: $orange
+    .section-global
+
+        display: flex
+        flex-direction: row
+        gap: 1vw
+      
+        .mini-section
+            color: black
+            padding-top: 50px
+            padding: 15vh 2vw 3vh 
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+            span
+                color: $orange
+            p
+                opacity: 0.5
+            &:hover
+                background-color: orange
+                color: white
+                padding-top: 20px
+                padding-bottom: 30px
+                transition: 1s
+                span
+                    color: white
+.restaurant-Menu
+    padding: 30px
+    ul
+        padding: 10px
+        display: flex
+        justify-content: center
+        gap: 2vw
+    h3
+        display: flex
+        align-items: center
+        justify-content: center
+        font-family: satisty
+        .text-orange
+            color: $orange
+    h5
+        color: $orange     
+    p
+        color: $gris
+        opacity: 0.5     
+    .button
+        border-radius: 50px
+        border: 1px solid $orange
+        background: white
+        color: $orange
+        
+        &:hover
+            background-color: orange
+            color: white
+        &:focus
+            background-color: orange
+            color: white     
+.restaurant-special
+    padding: 40px
+   
+    .btn
+        color: #050505
+        &:hover
+            color: $orange
+        &:focus 
+            color: $orange 
+
+    .rightspecial
+        display: flex
+        align-items: center
+        justify-content: center
+        flex-direction: column
+        width: 30vw
+
+    h3
+        text-align: center
+        display: flex
+        justify-content: center
+        font-family: satisty 
+        
+    p
+        opacity: 0.5
+        // width: 40vw
+        display: flex
+        align-items: center
+        justify-content: center
+        text-align: center                              
+.restaurant-events
+    padding: 20px
+    h3
+        display: flex
+        align-items: center
+        justify-content: center
+        font-family: satisty 
+        .text-orange
+            color: $orange
+    p
+        opacity: 0.5   
+    .group-carousel 
+        background: url(../images/events-bg.jpg) 
+        background-attachment: fixed
+        background-position: cover
+        position: relative
+        width: 100%
+        height: 100vh
+        &::before
+            content: ""
+            position: absolute
+            top: 0
+            width: 100%
+            height: 100%
+            background: rgb(0,0,0)
+            opacity: 0.5
+        .center-side
+            display: flex
+            flex-direction: row
+            justify-content: center
+            align-items: center
+            width: 80vw
+            padding: 20px 20px
+            gap: 2vw
+        .rightside
+            display: flex
+            flex-direction: column
+            padding: 20px 30px
+            color: white
+
+        
+        
+        
+        h1
+            font-family: satisty
+            color: $orange
+
+        p
+            opacity: 0.5
+        
+        .rightside-icons
+            display: flex
+            justify-content: center
+            flex-direction: column
+            padding: 10px
+            .rightside-icon
+                display: flex
+                justify-content: center
+                flex-direction: row
+                padding: 10px
+                gap: 1vw
+                i
+                    color: $orange
+        img
+            
+            opacity: 1
+        .card-img-overlay
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            gap: 4vh
+            color: white
+            p
+                color: white
+
+        button
+            width: 10px
+            border-radius: 50%  
+.restaurant-book
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    padding: 20px
+    p
+        width: 10vw
+    h3
+        display: flex
+        align-items: center
+        justify-content: center
+        font-family: satisty
+        .text-orange
+            color: $orange
+    
+    .formulaire
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        padding: 6vh 
+         gap: 2vw
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+        .form
+            display: flex
+            flex-direction: row
+            gap: 1vw
+            padding: 1vw 
+            input
+                width: 20vw
+                &:hover
+                    color: #377ee9
+                    border: 1px solid #377ee9
+        .for1
+            padding: 1vw    
+            textarea
+                width: 62vw
+                &:hover
+                    color: #377ee9
+                    border: 1px solid #377ee9
+        button
+            padding-left: 10vw
+            border-radius: 20px 
+            background-color: $orange
+            border: none
+            padding: 1vh 3vw
+            &:hover
+                background-color: #e99414c1
+.restaurant-gallery
+    display: flex
+    flex-direction: column
+    justify-content: center
+    h3
+        display: flex
+        align-items: center
+        justify-content: center
+        font-family: satisty
+        .text-orange
+            color: $orange
+    
+    .gallery
+        display: flex
+        flex-direction: row
+        justify-content: center
+        padding: 5px
+        div
+            overflow: hidden
+            img
+                transition: all 0.5s ease
+                &:hover
+                    transform: scale(1.3)
+.restaurant-chefs
+    .group-chef
+        background: url(../images/chefs-bg.jpg) 
+        background-position: cover
+        position: relative
+        width: 100%
+        height: 100vh
+        color: white
+        padding-top: 60px
+        &::before
+            content: ""
+            position: absolute
+            top: 0
+            width: 100%
+            height: 100%
+            background: rgb(0,0,0)
+            opacity: 0.9
+        
+    h3
+        display: flex
+        align-items: center
+        justify-content: center
+        font-family: satisty 
+    .img
+         width: 30vw
+    i
+        &:hover
+            color: #e99414c1
+
+        .group-carousel 
+            background: url(../images/testimonials-bg.jpg) 
+            background-position: cover
+            position: relative
+            width: 100%
+            height: 100vh
+            color: white
+            padding-top: 60px
+            &::before
+                content: ""
+                position: absolute
+                top: 0
+                width: 100%
+                height: 100%
+                background: rgb(0,0,0)
+                opacity: 0.5
+        
+            
+        p
+            width: 40vw
+    .img1
+            border-radius: 50%
+            width: 80px
+            border: 4px solid $gris        
+.restaurant-contact
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    p
+        width: 7vw
+    h3
+        display: flex
+        align-items: center
+        justify-content: center
+        font-family: satisty
+        .text-orange
+            color: $orange
+    .contact
+
+        display: flex
+        flex-direction: row
+        justify-content: center
+        align-items: center
+        padding: 6vh 
+        gap: 1vw
+        flex-wrap: wrap
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+        .div-contact
+            display: flex
+            flex-direction: row
+            justify-content: center
+            padding: 5px
+
+    .formulaire
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        padding: 6vh 
+         gap: 2vw
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+        .form
+            display: flex
+            flex-direction: row
+            gap: 1vw
+            flex-wrap: wrap
+            padding: 1vw 
+            input
+                width: 20vw
+                &:hover
+                    color: #377ee9
+                    border: 1px solid #377ee9
+        .formu 
+            display: flex
+            flex-direction: row
+            gap: 1vw
+            flex-wrap: wrap
+            padding: 1vw 
+            input
+                width: 40vw
+                &:hover
+                    color: #377ee9
+                    border: 1px solid #377ee9          
+        .for1
+            padding: 1vw    
+            textarea
+                width: 40vw
+                &:hover
+                    color: #377ee9
+                    border: 1px solid #377ee9
+        button
+            padding-left: 10vw
+            border-radius: 20px 
+            background-color: $orange
+            border: none
+            padding: 1vh 3vw
+            &:hover
+                background-color: #e99414c1
+.fixed
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 50px
+    background-color:$orange
+    height: 50px
+    position: fixed
+    bottom: 0px
+    right: 0
+    z-index: 99999999
+    border-radius: 50%
+    
+    i
+        color: white
