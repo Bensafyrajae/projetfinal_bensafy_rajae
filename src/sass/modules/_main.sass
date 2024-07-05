@@ -392,20 +392,30 @@
         .text-orange
             color: $orange
     .contact
-
         display: flex
-        flex-direction: row
-        justify-content: center
-        align-items: center
-        padding: 6vh 
-        gap: 1vw
-        flex-wrap: wrap
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+        flex-direction: column
+        justify-content: center 
+         align-items: center
+        width: 85vw
+        justify-content: space-around
+        padding: 3vh 0vw 1vh
+        box-shadow: 0 4px 8px 0 rgba(170, 168, 168, 0.2), 0 10px 20px 0 rgba(161, 157, 157, 0.19)
+        
         .div-contact
             display: flex
             flex-direction: row
             justify-content: center
-            padding: 5px
+             align-content: center
+            gap: 1vw
+            i
+                color: #ffa012
+                font-size: 20px
+                border-radius: 50%
+                padding: 3px
+                background-color: #facb859d
+                &:hover
+                    background-color: #ffb03b
+                    color: #fff
 
     .formulaire
         display: flex
@@ -413,7 +423,8 @@
         justify-content: center
         align-items: center
         padding: 6vh 
-         gap: 2vw
+        gap: 2vw
+        width: 65vw 
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
         .form
             display: flex
