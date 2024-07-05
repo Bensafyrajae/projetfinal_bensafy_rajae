@@ -12262,7 +12262,7 @@ nav a:hover {
 }
 
 .restaurant-events {
-  padding: 20px;
+  padding: 30px;
 }
 .restaurant-events h3, .restaurant-events .h3 {
   display: flex;
@@ -12297,15 +12297,14 @@ nav a:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
   width: 80vw;
   padding: 20px 20px;
-  gap: 2vw;
+  gap: 1vw;
 }
 .restaurant-events .group-carousel .rightside {
   display: flex;
   flex-direction: column;
-  padding: 20px 30px;
+  padding: 20px 0px;
   color: white;
 }
 .restaurant-events .group-carousel h1, .restaurant-events .group-carousel .h1 {
@@ -12416,6 +12415,7 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 .restaurant-gallery h3, .restaurant-gallery .h3 {
   display: flex;
@@ -12523,9 +12523,6 @@ nav a:hover {
   justify-content: center;
   align-items: center;
 }
-.restaurant-contact p {
-  width: 7vw;
-}
 .restaurant-contact h3, .restaurant-contact .h3 {
   display: flex;
   align-items: center;
@@ -12539,17 +12536,17 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  justify-content-align-items: center;
-  width: 5vw;
+  align-items: center;
+  width: 65vw;
   justify-content: space-around;
-  padding: 3vh 0vw 1vh;
+  padding: 2vh 0vw 1vh;
   box-shadow: 0 4px 8px 0 rgba(170, 168, 168, 0.2), 0 10px 20px 0 rgba(161, 157, 157, 0.19);
 }
 .restaurant-contact .contact .div-contact {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  justify-content-align-content: center;
+  align-content: center;
   gap: 1vw;
 }
 .restaurant-contact .contact .div-contact i {
