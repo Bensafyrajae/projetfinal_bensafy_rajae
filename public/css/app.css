@@ -12737,6 +12737,7 @@ nav a:hover {
   }
   .restaurant-special .special {
     flex-direction: column !important;
+    flex-direction-gap: 1vh !important;
   }
   .restaurant-special .btn {
     text-align: start;
@@ -12757,6 +12758,45 @@ nav a:hover {
   }
   .rightspecialimg .right-special {
     width: 90vw;
+  }
+  .restaurant-events .center-side {
+    flex-direction: column !important;
+    width: 100vw;
+    width-height: 100%;
+  }
+  .restaurant-events .center-side img {
+    width: 100%;
+    height: 50%;
+  }
+  .restaurant-events .center-side .rightside {
+    width: 80%;
+    height: 50%;
+  }
+  .restaurant-events .group-carousel {
+    width: 100vw;
+    flex-direction: column !important;
+  }
+  .restaurant-book .form {
+    flex-direction: column !important;
+    width: 100%;
+  }
+  .restaurant-book .form input {
+    width: 100%;
+    padding: 2vw 1vh;
+  }
+  .restaurant-gallery .gallery {
+    flex-direction: column;
+  }
+  .restaurant-gallery .gallery img {
+    width: 100%;
+    padding: 5px;
+  }
+  .restaurant-chefs {
+    padding: 10px;
+  }
+  .restaurant-chefs .chef-res {
+    flex-direction: column;
+    gap: 1vh;
   }
 }
 footer {
