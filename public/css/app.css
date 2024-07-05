@@ -12054,6 +12054,15 @@ nav .menu {
   justify-content: space-between;
   gap: 3vw;
 }
+nav #Check {
+  display: none;
+}
+nav .label {
+  display: none;
+}
+nav .label .icon {
+  color: orange;
+}
 nav .leftside-menu {
   font-family: satisty;
   font-size: 200;
@@ -12076,6 +12085,33 @@ nav a:hover {
   color: #ffa012;
 }
 
+@media (max-width: 428px) {
+  nav .label {
+    display: flex;
+  }
+  nav .menu {
+    flex-direction: column;
+    align-items: start;
+    padding-left: 50px;
+    padding-top: 50px;
+    background-color: white;
+    width: 99vw;
+    height: 100vh;
+    position: fixed;
+    display: none;
+    z-index: 999;
+    transition: 1s;
+    top: 10%;
+    left: 0;
+    border-radius: 20px;
+  }
+  nav a {
+    color: black;
+  }
+  nav #Check:checked ~ .menu {
+    display: flex;
+  }
+}
 .button {
   border: 1px solid #ffa012;
   border-radius: 20px;
@@ -12660,6 +12696,69 @@ nav a:hover {
   color: white;
 }
 
+@media (max-width: 428px) {
+  nav .menu {
+    display: none;
+  }
+  .card-img-overlay {
+    text-align: center;
+    padding-top: 100px;
+    padding: 5vw;
+  }
+  .caro p {
+    width: 60vw;
+  }
+  .section2 {
+    flex-direction: column;
+  }
+  .rightside-icon {
+    width: 90vw;
+  }
+  .leftside video {
+    width: 100vw !important;
+  }
+  .section3 span {
+    width: 85vw;
+  }
+  .section-global {
+    flex-direction: column !important;
+    gap: 4vh;
+  }
+  .section-global .mini-section {
+    width: 95vw;
+    padding: 10px;
+  }
+  .restaurant-Menu .button1 {
+    flex-direction: column !important;
+    gap: 1vh !important;
+  }
+  .restaurant-special {
+    padding: 0vh 3vw;
+  }
+  .restaurant-special .special {
+    flex-direction: column !important;
+  }
+  .restaurant-special .btn {
+    text-align: start;
+  }
+  .restaurant-special .btn:focus {
+    background-color: #ffb03b;
+    color: white;
+  }
+  .restaurant-special p {
+    width: 100vw;
+  }
+  .rightspecialimg {
+    flex-direction: column !important;
+    flex-direction: column-reverse !important;
+  }
+  .rightspecialimg div img {
+    width: 90vw !important;
+  }
+  .rightspecialimg .right-special {
+    width: 90vw;
+  }
+}
 footer {
   display: flex;
   justify-content: center;
