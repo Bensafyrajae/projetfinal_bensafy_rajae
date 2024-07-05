@@ -12448,7 +12448,7 @@ nav a:hover {
   position: relative;
   width: 100%;
   height: 100vh;
-  color: white;
+  color: black;
   padding-top: 60px;
 }
 .restaurant-chefs .chefs::before {
@@ -12458,7 +12458,16 @@ nav a:hover {
   width: 100%;
   height: 100%;
   background: rgb(0, 0, 0);
-  opacity: 0.5;
+  opacity: 0.7;
+}
+.restaurant-chefs .chefs h3, .restaurant-chefs .chefs .h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: satisty;
+}
+.restaurant-chefs .chefs h3 .text-orange, .restaurant-chefs .chefs .h3 .text-orange {
+  color: #ffa012;
 }
 .restaurant-chefs .group-chef {
   background: url(../images/testimonials-bg.jpg);
