@@ -317,6 +317,9 @@
                     transform: scale(1.3)
 .restaurant-chefs
     padding: 20px
+    display: flex
+    gap: 3vh
+    flex-direction: column
     .chefs
         background: url(../images/chefs-bg.jpg) 
         background-position: cover
@@ -528,24 +531,26 @@
     .section3
         span
             width: 85vw
-    .section-global
-        flex-direction: column !important
-        gap: 4vh
+        .section-global
+            flex-direction: column !important
+             gap: 4vh
         .mini-section
             width: 95vw
             padding: 10px
             
 
     .restaurant-Menu
-        .button1
+        .button
             flex-direction: column !important
             gap: 1vh !important        
     .restaurant-special
         padding: 0vh 3vw
+        justify-content: column !important
         .special 
            flex-direction: column !important
             gap: 1vh !important
         .btn
+            
             text-align: start
             &:focus
                 background-color:  #ffb03b
@@ -565,7 +570,7 @@
         .center-side
             flex-direction: column !important
             width: 100vw
-             height: 100%
+            height: 100%
             img
                 width: 100%
                 height: 50%
@@ -594,11 +599,29 @@
                 width: 100%
                 padding: 5px         
     .restaurant-chefs
+        display: none
         padding: 10px
+        gap: 3vh
         .chef-res
             flex-direction: column
             gap: 1vh
-            
-            
+    .restaurant-contact
+        
+        
+        iframe
+            width: 100% 
+        .formulaire
+           .form
+            flex-direction: column !important
+            width: 100%
+            input
+                width: 100%
+                padding: 2vw 1vh
+           .formu 
+           
+                flex-direction: column !important        
+
+
+
 
                 

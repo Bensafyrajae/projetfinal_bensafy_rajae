@@ -12483,6 +12483,9 @@ nav a:hover {
 
 .restaurant-chefs {
   padding: 20px;
+  display: flex;
+  gap: 3vh;
+  flex-direction: column;
 }
 .restaurant-chefs .chefs {
   background: url(../images/chefs-bg.jpg);
@@ -12720,20 +12723,21 @@ nav a:hover {
   .section3 span {
     width: 85vw;
   }
-  .section-global {
+  .section3 .section-global {
     flex-direction: column !important;
-    gap: 4vh;
+    flex-direction-gap: 4vh;
   }
-  .section-global .mini-section {
+  .section3 .mini-section {
     width: 95vw;
     padding: 10px;
   }
-  .restaurant-Menu .button1 {
+  .restaurant-Menu .button {
     flex-direction: column !important;
     gap: 1vh !important;
   }
   .restaurant-special {
     padding: 0vh 3vw;
+    justify-content: column !important;
   }
   .restaurant-special .special {
     flex-direction: column !important;
@@ -12762,7 +12766,7 @@ nav a:hover {
   .restaurant-events .center-side {
     flex-direction: column !important;
     width: 100vw;
-    width-height: 100%;
+    height: 100%;
   }
   .restaurant-events .center-side img {
     width: 100%;
@@ -12792,11 +12796,27 @@ nav a:hover {
     padding: 5px;
   }
   .restaurant-chefs {
+    display: none;
     padding: 10px;
+    gap: 3vh;
   }
   .restaurant-chefs .chef-res {
     flex-direction: column;
     gap: 1vh;
+  }
+  .restaurant-contact iframe {
+    width: 100%;
+  }
+  .restaurant-contact .formulaire .form {
+    flex-direction: column !important;
+    width: 100%;
+  }
+  .restaurant-contact .formulaire .form input {
+    width: 100%;
+    padding: 2vw 1vh;
+  }
+  .restaurant-contact .formulaire .formu {
+    flex-direction: column !important;
   }
 }
 footer {
