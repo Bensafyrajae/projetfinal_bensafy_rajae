@@ -12466,16 +12466,16 @@ nav a:hover {
   background: rgb(0, 0, 0);
   opacity: 0.6;
 }
-.restaurant-chefs .chefs h3, .restaurant-chefs .chefs .h3 {
+.restaurant-chefs h3, .restaurant-chefs .h3 {
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: satisty;
 }
-.restaurant-chefs .chefs h3 .text-orange, .restaurant-chefs .chefs .h3 .text-orange {
+.restaurant-chefs h3 .text-orange, .restaurant-chefs .h3 .text-orange {
   color: #ffa012;
 }
-.restaurant-chefs .chefs span {
+.restaurant-chefs span {
   display: flex;
   align-items: center;
   justify-content: center;
